@@ -1,0 +1,39 @@
+body {
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+
+/* Styles for large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+  /* Add your styles for large devices here */
+  body {
+    font-size: 16px; /* Example: Increase font size for better readability on large screens */
+  }
+}
+
+/* Styles for medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Add your styles for medium devices here */
+  body {
+    font-size: 14px; /* Example: Decrease font size for better readability on medium screens */
+  }
+}
+
+/* Styles for small devices (phones) */
+@media only screen and (max-width: 767px) {
+  /* Add your styles for small devices here */
+  body {
+    font-size: 12px; /* Example: Further decrease font size for better readability on small screens */
+  }
+}
+
